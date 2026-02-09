@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtixon amaliyot</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 70px;
+            background: rgb(7, 121, 121);
+        }
+
+        nav ul:nth-child(1) h1{
+            color: white;
+            font-family: sans-serif;
+        }
+
+        nav li{
+            list-style: none;
+        }
+
+        nav ul:nth-child(2) {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        nav ul:nth-child(2) li a{
+            color: white;
+            font-size: 17px;
+            text-decoration: none;
+            font-family: cursive;
+        }
+
+        body{
+            background-color: silver;
+        }
+        form{
+            border-radius: 50px;
+            width: 500px;
+            height: 400px;
+            margin: 100px auto;
+            background: white;
+            padding: 30px 40px;     
+        }
+
+        form h1{
+            font-size: 43px;
+            font-family: sans-serif;
+            font-weight: 500;
+            text-align: center;  
+        }
+
+        form input {
+            margin: auto;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 50px;
+            width: 350px;
+            height: 30px;
+            padding: 15px;
+        }
+        form button{
+            width: 374px;
+            height: 40px;
+            padding: 10px;
+            background: rgb(93, 20, 129);
+            border-radius: 50px;
+            cursor: pointer;
+            color: white;
+            font-weight: 800;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <h1>Logo</h1>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="./home.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="./services.html">Services</a>
+                </li>
+
+                <li>
+                    <a href="./login.html">Login</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <form action="">
+        <h1>Mashina olish uchun </h1>
+        <br><br>
+        <label for="">Name</label>
+        <input required type="text" placeholder="Name enter">
+        <br><br><br>
+        <label for="">Surname</label>
+        <input required type="text" placeholder="Surname enter">
+        <br><br><br>
+        <label for="">Email</label>
+        <input required type="text" placeholder="Email enter">
+        <br><br><br><br>
+        <button>Login</button>
+    </form>
+    
+</body>
+</html>
